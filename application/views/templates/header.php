@@ -12,21 +12,27 @@
 
   <!-- My CSS -->
   <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css">
-
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+  
   <title><?php echo $judul; ?>
   </title>
   <style>
     .navbar {
-			background-image: url(<?php echo base_url() ?>assets/img/bg4.png);
+			background-image: url(<?php echo base_url()?>assets/img/header-api.png);
 		}
   </style>
 </head>
 
-<body>
+<body style ="  background-image: url(<?php echo base_url()?>assets/img/bg-api.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;">
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" style="color: white" href="#">Form Data Mahasiswa</a>
+      <a class="navbar-brand" style="color: #15377C; font-family: 'Cabin', sans-serif; font-size: 35px" href="#">FORM MAHASISWA</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
