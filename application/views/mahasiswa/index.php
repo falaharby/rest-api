@@ -12,16 +12,18 @@
         </div>
     </div> -->
     <?php endif; ?>
-
-    <div class="row mt-3 justify-content-center">
+    <br>
+    <br>
+    <br><br>
+    <br><br>
+    <div class="row mt-3">
         <div class="col-md-6">
-            <h3>Daftar Mahasiswa</h3>
+            <h3 style = "font-family: 'Cabin', sans-serif;">Daftar Mahasiswa</h3>
             <?php if (empty($mahasiswa)) : ?>
                 <div class="alert alert-danger" role="alert">
                 data mahasiswa tidak ditemukan.
                 </div>
             <?php endif; ?>
-            <hr>
             <ul class="list-group">
                 <?php foreach ($mahasiswa as $mhs) : ?>
                 <li class="list-group-item">
@@ -38,7 +40,7 @@
         </div>
     </div>
 
-    <div class="row mt-3 justify-content-center">
+    <div class="row mt-3">
         <div class="col-md-6">
             <a href="<?= base_url(); ?>mahasiswa/tambah" class="btn btn-success">Tambah
                 Data Mahasiswa</a>
